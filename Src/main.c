@@ -120,18 +120,18 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  drawPanel("Address", "192.168.0.150");
+	  drawPanel("ADDRESS", "192.168.0.150");
 	  HAL_GPIO_TogglePin(LD1_GPIO_Port, LD1_Pin);
 	  HAL_Delay(1500);
-	  drawPanel("Gateway", "192.168.0.1");
+	  drawPanel("GATEWAY", "192.168.0.1");
 	  HAL_GPIO_TogglePin(LD1_GPIO_Port, LD1_Pin);
 	  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
 	  HAL_Delay(1500);
-	  drawPanel("Netmask", "255.255.255.255");
+	  drawPanel("NETMASK", "255.255.255.255");
 	  HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
 	  HAL_GPIO_TogglePin(LD3_GPIO_Port, LD3_Pin);
 	  HAL_Delay(1500);
-	  drawPanel("RTC Time", "15:42:15 UTC");
+	  drawPanel("RTC TIME", "15:42:15 UTC");
 	  HAL_GPIO_TogglePin(LD3_GPIO_Port, LD3_Pin);
 	  HAL_Delay(1500);
 	  HAL_GPIO_TogglePin(LD3_GPIO_Port, LD3_Pin);
